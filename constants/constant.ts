@@ -1,6 +1,8 @@
+import { FaBriefcase, FaChess, FaRocket, FaShoppingCart } from "react-icons/fa";
 import { GoWorkflow } from "react-icons/go";
+import { IoColorPaletteOutline } from "react-icons/io5";
 import { LuPen } from "react-icons/lu";
-import { MdAccessAlarm, MdOutlineTouchApp } from "react-icons/md";
+import { MdAccessAlarm, MdOutlineDesignServices, MdOutlineTouchApp } from "react-icons/md";
 
 export const navLinks = [
     {
@@ -68,3 +70,36 @@ export const features1 = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias.",
     },
   ];
+
+  export const services = [
+    {
+        icon : FaRocket,
+        title : 'Start Up',
+        description : '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."'
+    },
+    {
+        icon : FaBriefcase,
+        title : 'Bossiness',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."
+    },
+    {
+        icon : FaShoppingCart,
+        title : 'E-commerce',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."
+    },
+    {
+        icon : MdOutlineDesignServices,
+        title : 'Digital Design',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."
+    },
+    {
+        icon : IoColorPaletteOutline,
+        title : 'Unlimited Colors',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."
+    },
+    {
+        icon : FaChess,
+        title : 'Strategy Solution',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."
+    },
+  ]
