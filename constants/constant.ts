@@ -130,4 +130,22 @@ export const features1 = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente velit. Expedita corrupti ex fugit."
     },
 
+  ];
+
+  export const prices = [
+    {
+        time : '3 Months',
+        price : "39.99",
+        description : " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptates repudiandae fuga consectetur modi labore, impedit ex ullam totam explicabo."
+    },
+    {
+        time : '12 Months',
+        price : "40.99",
+        description : " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptates repudiandae fuga consectetur modi labore, impedit ex ullam totam explicabo."
+    },
+    {
+        time : 'Life Time',
+        price : "20.00",
+        description : " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptates repudiandae fuga consectetur modi labore, impedit ex ullam totam explicabo."
+    },
   ]
