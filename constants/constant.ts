@@ -42,7 +42,7 @@ export const navLinks = [
     },
     
 
-]
+];
 
 export const features1 = [
     {
@@ -102,4 +102,32 @@ export const features1 = [
         title : 'Strategy Solution',
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet tenetur accusamus nemo, itaque alias."
     },
+  ];
+
+  export const clients = [
+    {
+        image : '/images/u1.jpg',
+        name : 'Jessica Doe',
+        rating : '4.7',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente velit. Expedita corrupti ex fugit."
+    },
+    {
+        image : '/images/t1.jpg',
+        name : 'John Doe',
+        rating : '4.5',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente velit. Expedita corrupti ex fugit."
+    },
+    {
+        image : '/images/u3.jpg',
+        name : 'Sauk Doe',
+        rating : '4.3',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente velit. Expedita corrupti ex fugit."
+    },
+    {
+        image : '/images/u4.jpg',
+        name : 'Boru Doe',
+        rating : '4.9',
+        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente velit. Expedita corrupti ex fugit."
+    },
+
   ]
