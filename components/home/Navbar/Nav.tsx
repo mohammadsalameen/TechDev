@@ -19,7 +19,7 @@ const Nav = ({openNav} : IProps) => {
         return () => window.removeEventListener('scroll', handler); //clean up function
     }, []);
   return (
-    <div className={`transition-all ${navBg ? "bg-white shadow-md" : "fixed"} duration-200 h-[12vh] z-[100] fixed w-full`}>
+    <div className={`transition-all ${navBg ? "bg-white shadow-md" : "fixed"} duration-200 h-[12vh] z-[100] bg-gray-100 fixed w-full`}>
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* Logo */}
         <div className="flex items-center space-x-2">

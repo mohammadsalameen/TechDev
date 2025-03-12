@@ -9,7 +9,7 @@ import Pricing from './pricing/Pricing'
 
 const Home = () => {
   return (
-    <div className='overflow-hidden h-[10000px]'>
+    <div className='overflow-hidden h-full'>
       <Hero/>
       <About/>
       <Feature/>
