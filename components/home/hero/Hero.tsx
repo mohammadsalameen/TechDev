@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="relative w-full h-[110vh] sm:h-screen bg-[url('/images/bg.png')] bg-cover bg-center flex justify-center flex-col">
       <div className="w-[90%] md:[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10  ">
-        <div>
+        <div data-aos = 'fade-up'>
           <p className="text-sm sm:text-base md:text-xl font-bold text-blue-950">
             Make the Smartest Investment
           </p>
@@ -152,7 +152,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Image Content */}
-        <div className="mx-auto hidden xl:block">
+        <div data-aos = 'fade-down' data-aos-delay = '150' className="mx-auto hidden xl:block">
             <Image src='/images/hero.jpg' alt="hero" width={900} height={900}/>
         </div>
       </div>

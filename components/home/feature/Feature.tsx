@@ -17,7 +17,7 @@ const Feature = () => {
         {/* Main Grid */}
         <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* Features Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div data-aos = 'zoom-in' data-aos-anchor-placement = 'top-center' className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             {features1.map((feature, index) => (
               <FeatureBox 
                 key={index}
@@ -29,7 +29,7 @@ const Feature = () => {
           </div>
           {/* Image Content */}
           <div>
-            <Image src="/images/f1.png" alt="feature" width={700} height={700} />
+            <Image data-aos = 'fade-left' data-aos-anchor-placement = 'top-center' data-aos-delay='300' src="/images/f1.png" alt="feature" width={700} height={700} />
           </div>
         </div>
       </div>

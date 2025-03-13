@@ -15,7 +15,7 @@ const Service = () => {
         </p>
         {/* grid  */}
         <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div data-aos = 'zoom-in' data-aos-anchor-placement = 'top-center' className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               {
                 services.map((service, index) => (
                   <FeatureBox key={index} icon={service.icon} title={service.title} description={service.description}/>

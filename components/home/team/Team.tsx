@@ -29,13 +29,13 @@ const Team = () => {
         {/* Images Content  */}
         <div className="sm:flex items-center space-y-4 sm:space-y-0 sm:space-x-4 lg:col-span-3">
             <div className="relative overflow-hidden">
-                <Image src="/images/t1.jpg" alt="team" width={300} height={300} className="rounded-lg" />
+                <Image data-aos = 'fade-right' data-aos-anchor-placement = 'top-center' src="/images/t1.jpg" alt="team" width={300} height={300} className="rounded-lg" />
                 <div className="absolute w-full h-[5rem] bottom-0 p-4 bg-rose-500 rounded-lg">
                     <p className="text-lg text-white font-bold">Obito Uchina</p>
                     <p className="text-gray-200">(Founder)</p>
                 </div>
             </div>
-            <div className="relative overflow-hidden">
+            <div data-aos = 'fade-right' data-aos-delay = '100' data-aos-anchor-placement = 'top-center' className="relative overflow-hidden">
                 <Image src="/images/t2.jpg" alt="team" width={300} height={300} className="rounded-lg" />
                 <div className="absolute w-full h-[5rem] bottom-0 p-4 bg-orange-500 rounded-lg">
                     <p className="text-lg text-white font-bold">Jessica Doe</p>
