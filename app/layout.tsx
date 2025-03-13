@@ -3,6 +3,7 @@ import { Rethink_Sans } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/home/Navbar/ResponsiveNav";
 import Footer from "@/components/home/footer/footer";
+import ScrollToTop from "@/components/helper/ScrollToTop";
 
 const font = Rethink_Sans({
   weight : ['400', '500', '600', '700', '800'],
@@ -36,6 +37,7 @@ export default function RootLayout({
         <ResponsiveNav/>
         {children}
         <Footer/>
+        <ScrollToTop/>
       </body>
     </html>
   );
